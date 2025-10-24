@@ -1,0 +1,3 @@
+([('game2048',
+   '/Users/kuznecovaveravladislavovna/PycharmProjects/game2048/dist/game2048',
+   'EXECUTABLE')],)
