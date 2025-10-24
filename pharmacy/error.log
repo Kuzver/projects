@@ -1,0 +1,15 @@
+Traceback (most recent call last):
+  File "C:\Users\Xazor\PycharmProjects\pharmacy\main.py", line 1347, in check_notifications
+    notifications = self.db_manager.get_low_stock_notifications()
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Xazor\PycharmProjects\pharmacy\main.py", line 480, in get_low_stock_notifications
+    self.cursor.execute("""
+psycopg2.errors.InFailedSqlTransaction: ОШИБКА:  текущая транзакция прервана, команды до конца блока транзакции игнорируются
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Xazor\PycharmProjects\pharmacy\main.py", line 1351, in check_notifications
+    print(f"Ошибка проверки уведомлений: {e}")
+OSError: [Errno 22] Invalid argument
